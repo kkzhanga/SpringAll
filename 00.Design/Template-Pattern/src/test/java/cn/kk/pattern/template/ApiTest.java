@@ -21,5 +21,4 @@ public class ApiTest {
         String base64 = netMall.generateGoodsPoster("https://item.jd.com/100008348542.html");
         logger.info("测试结果：{}", base64);
     }
-
 }
