@@ -18,11 +18,11 @@ public class ApiTest {
         beanFactory.registerBeanDefinition("userService", beanDefinition);
 
         // 3.获取无参bean
-        UserService userService = (UserService) beanFactory.getBean("userService");
-        userService.queryUserInfo();
+        /*UserService userService = (UserService) beanFactory.getBean("userService");
+        userService.queryUserInfo();*/
 
         // 3.获取有参bean
-       /* UserService userService = (UserService) beanFactory.getBean("userService", new Object[]{"小傅哥"});
-        userService.queryUserInfo();*/
+        UserService userService = (UserService) beanFactory.getBean("userService", new Object[]{"广隶哥"});
+        userService.queryUserInfo();
     }
 }
