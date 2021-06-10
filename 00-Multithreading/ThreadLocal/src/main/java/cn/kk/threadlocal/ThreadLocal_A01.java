@@ -10,8 +10,6 @@ public class ThreadLocal_A01 {
 
   ThreadLocal<String> threadLocal = new ThreadLocal();
 
-  InheritableThreadLocal inheri=new InheritableThreadLocal();
-
   private static String content;
 
   public String getContent() {
