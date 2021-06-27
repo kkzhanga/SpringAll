@@ -1,11 +1,11 @@
-package cn.kk.springframework.factory.support;
+package cn.kk.springframework.Beans.factory.support;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.kk.springframework.BeansException;
 import cn.kk.springframework.PropertyValue;
 import cn.kk.springframework.PropertyValues;
-import cn.kk.springframework.factory.config.BeanDefinition;
-import cn.kk.springframework.factory.config.BeanReference;
+import cn.kk.springframework.Beans.factory.config.BeanDefinition;
+import cn.kk.springframework.Beans.factory.config.BeanReference;
 
 import java.lang.reflect.Constructor;
 

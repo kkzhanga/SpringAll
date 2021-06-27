@@ -1,4 +1,4 @@
-package cn.kk.springframework.factory.config;
+package cn.kk.springframework.Beans.factory.config;
 
 
 public class BeanReference {

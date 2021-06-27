@@ -1,6 +1,6 @@
-package cn.kk.springframework.factory.support;
+package cn.kk.springframework.Beans.factory.support;
 
-import cn.kk.springframework.factory.config.BeanDefinition;
+import cn.kk.springframework.Beans.factory.config.BeanDefinition;
 
 /**
  * @Description TODO

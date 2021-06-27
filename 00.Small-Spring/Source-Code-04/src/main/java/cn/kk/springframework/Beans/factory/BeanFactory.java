@@ -1,4 +1,4 @@
-package cn.kk.springframework.factory;
+package cn.kk.springframework.Beans.factory;
 
 import cn.kk.springframework.BeansException;
 

@@ -1,8 +1,8 @@
 package cn.kk.springframework;
 
 import cn.kk.springframework.bean.UserService;
-import cn.kk.springframework.factory.config.BeanDefinition;
-import cn.kk.springframework.factory.support.DefaultListableBeanFactory;
+import cn.kk.springframework.Beans.factory.config.BeanDefinition;
+import cn.kk.springframework.Beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 
 
