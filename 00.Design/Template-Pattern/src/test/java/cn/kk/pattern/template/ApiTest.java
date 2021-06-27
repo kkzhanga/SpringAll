@@ -20,5 +20,6 @@ public class ApiTest {
         NetMall netMall = new JDNetMall("1000001","*******");
         String base64 = netMall.generateGoodsPoster("https://item.jd.com/100008348542.html");
         logger.info("测试结果：{}", base64);
+
     }
 }
